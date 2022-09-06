@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Typecheck
-        uses: desolationsoftware/typescript-error-reporter-action@v1.0.5
+        uses: desolationsoftware/typescript-error-reporter-action@v1.0.9
 ```
 
 `tsconfig.json`:
@@ -58,7 +58,7 @@ path to the repo itself:
 
 ```yaml
 - name: Typecheck
-  uses: desolationsoftware/typescript-error-reporter-action@v1.0.5
+  uses: desolationsoftware/typescript-error-reporter-action@v1.0.9
   with:
     project: packages/subpackage/tsconfig.json
 ```
