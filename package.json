@@ -6,12 +6,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gozala/typescript-error-reporter-action.git"
+    "url": "git+https://github.com/desolationsoftware/typescript-error-reporter-action.git"
   },
   "bugs": {
-    "url": "https://github.com/gozala/typescript-error-reporter-action/issues"
+    "url": "https://github.com/desolationsoftware/typescript-error-reporter-action/issues"
   },
-  "homepage": "https://github.com/gozala/typescript-error-reporter-action#readme",
+  "homepage": "https://github.com/desolationsoftware/typescript-error-reporter-action#readme",
   "scripts": {
     "start": "npx @vercel/ncc run ./src/index.ts",
     "build": "npx @vercel/ncc build src/index.ts",

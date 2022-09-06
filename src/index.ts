@@ -48,7 +48,7 @@ const typecheck = (projectPath:string) => {
       ts.sys,
       path.dirname(projectPath),
       undefined,
-      path.basename(projectPath)
+      projectPath
   );
 
   const errors = isIncrementalCompilation(config.options)
