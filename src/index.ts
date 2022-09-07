@@ -18,7 +18,7 @@ async function main() {
     }
 
     typecheck(projectPath)
-  } catch (e) {
+  } catch (e:any) {
     console.error(e)
     setFailed(e)
   }
